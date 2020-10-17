@@ -1,0 +1,31 @@
+# Lab1
+package Lab_1;
+
+public class Question4 {
+
+	public static void main(String[] args) {
+		
+		deers(70, false);
+		deers(95, false);
+		deers(95, true);
+	}
+
+	public static void deers(int x, boolean isSummer) {
+
+		if (isSummer) {
+			if (60 < x && x < 100) {
+				System.out.println(true);
+			} else {
+				System.out.println(false);
+			}
+		} else {
+			if (60 <= x && x <= 90) {
+				System.out.println(true);
+			} else {
+				System.out.println(false);
+			}
+		}
+
+	}
+
+}
